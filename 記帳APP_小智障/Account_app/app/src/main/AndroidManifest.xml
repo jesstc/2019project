@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.accounting_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".dexApplication"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SetRole"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Resetpassword"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ForgetPassword"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chatting_page.Voice_Assistant"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Budget"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Main2Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SignupActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ChooseRole"
+            android:screenOrientation="portrait" />
+        <activity android:name=".setting"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Category"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Function"
+            android:screenOrientation="portrait" />
+        <activity android:name=".History"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Report"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

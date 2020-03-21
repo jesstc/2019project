@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="135dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_item_selected"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/icon_img"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/work"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/icon_name"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="好" />
+
+</LinearLayout>
+
+<!--<androidx.cardview.widget.CardView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_margin="2dp"-->
+<!--    app:cardCornerRadius="4dp">-->
+
+
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/nav_func_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:clickable="true"-->
+<!--        android:focusableInTouchMode="true"-->
+<!--        android:focusable="true"-->
+<!--        android:background="@drawable/selector_item_selected">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/nav_func_image" android:layout_margin="10dp" android:layout_width="match_parent" android:layout_height="100dp"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:scaleType="centerCrop"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/nav_func_name"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:textSize="16sp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+<!--    </LinearLayout>-->
+<!--</androidx.cardview.widget.CardView>-->

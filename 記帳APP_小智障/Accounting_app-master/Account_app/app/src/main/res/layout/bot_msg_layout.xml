@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reply"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:id="@+id/chatBubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp">
+
+        <ImageView
+            android:id="@+id/left_img"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/va" />
+
+        <LinearLayout
+            android:id="@+id/botMsgLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="4dp"
+            android:layout_toRightOf="@+id/left_img"
+            android:background="@drawable/bot_bg_bubble"
+            android:gravity="start|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chatMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:paddingHorizontal="10dp"
+                android:text="abcdefgh"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp" />
+
+
+            <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!--    看後端要不要抓時間-->
+        <TextView
+            android:id="@+id/text_message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/botMsgLayout"
+            android:layout_marginTop="30dp"
+            android:text="21:59"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</FrameLayout>
+

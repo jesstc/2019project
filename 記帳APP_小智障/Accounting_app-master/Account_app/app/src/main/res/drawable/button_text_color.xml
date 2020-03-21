@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    被選擇時-->
+    <item android:state_selected="true" android:color="#FFFFFF"/>
+
+<!--    沒被選擇-->
+    <item android:state_selected="false" android:color="#000000"/>
+</selector>
