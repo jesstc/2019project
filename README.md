@@ -3,7 +3,7 @@
 
 
 
-#[專案簡介]
+# [專案簡介]
 
 這是一個叫做"小智帳"的APP，使用Android Studio及Firebase作為開發工具。
 
